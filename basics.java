@@ -22,6 +22,17 @@ public class basics {
         int abc = (int)f;
 
         //type promotion
+        //byte, short , char converted to int in expression
+        byte n1 = 1;
+        char n2 = 'c';
+        short n3 = 12;
+        short n4 = (short) (n1+n2+n3);
+
+        //long, float, double converted long, float, double
+        float f1 = 12.12f;
+        double f2 = 12.21223;
+        long d1 = 1212;
+        double d2 = f1+f2+d1;
 
         int a = s.nextInt();
         float r = s.nextFloat();
