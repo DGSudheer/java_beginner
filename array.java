@@ -18,7 +18,7 @@ public class array {
 
         char c[] = new char[3];
         float f[] = new float[4];
-        
+        String aa1[] = new String[10];
     }
 
     public static int Largest(int a[]){
